@@ -1,0 +1,58 @@
+/* Small Mobile Screens */
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.flex-footer, .SM-container {
+    display: flex;
+}
+
+.flex-footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.SM-container {
+    max-width: 350px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 8%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.SM-container img {
+    width: 100%;
+}
+
+#imgEtsy {
+    display: none;
+}
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+    .flex-footer {
+        flex-direction: row;
+        justify-content: start;
+    }
+}
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    .flex-footer{
+        margin: auto;
+        max-width: 1100px;
+    }
+}

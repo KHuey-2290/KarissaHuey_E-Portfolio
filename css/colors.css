@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+header, footer, ul {
+    background-color: rgb(20, 20, 20);
+}
+
+h1, h2, h3, p, .resume-box a {
+    color: rgb(76, 20, 102);
+}
+
+footer p, nav a {
+    color: rgb(179, 148, 194);
+}
+
+/* Navbar */
+.active-link {
+    color: gold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* About Page */
+.resume-button {
+    background-color: rgb(20, 20, 20);
+    color: rgb(241, 241, 241);
+}
+
+.resume-button:hover {
+    background-color: gold;
+    color: rgb(76, 20, 102);
+}
+
+/* Projects Page */
+#project1 {
+    background-color: rgb(5, 5, 5);
+}
+
+#project1 h1 {
+    color: gold;
+}
+
+#project2 {
+    background-color: rgb(50, 50, 50);
+}
+
+#project2 h1 {
+    color: gold;
+}
+
+#project3 {
+    background-color: rgb(75, 75, 75);
+}
+
+#project3 h1 {
+    color: gold;
+}
+
+#project4 {
+    background-color: rgb(100, 100, 100);
+}
+
+#project4 h1 {
+    color: gold;
+}
+
+#project5 {
+    background-color: rgb(125, 125, 125);
+}
+
+#project6 {
+    background-color: rgb(150, 150, 150);
+}
+
+#project7 {
+    background-color: rgb(200, 200, 200);
+}
+
+#project8 {
+    background-color: rgb(249, 249, 249);
+}
+
+.modal {
+    background-color: rgb(20, 20, 20);
+}
+
+.modal-content {
+    background-color: rgb(20, 20, 20);
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+    /* Contact Page */
+    .contact-text a {
+        color: rgb(76, 20, 102);
+    }
+
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+
+}
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    /* Projects Page */
+#project1 {
+    background-color: rgb(5, 5, 5);
+}
+
+#project1 h1 {
+    color: gold;
+}
+
+#project2 {
+    background-color: rgb(75, 75, 75);
+}
+
+#project2 h1 {
+    color: gold;
+}
+
+#project3 {
+    background-color: rgb(125, 125, 125);
+}
+
+#project3 h1 {
+    color: rgb(76, 20, 102);
+}
+
+#project4 {
+    background-color: rgb(200, 200, 200);
+}
+
+#project4 h1 {
+    color: rgb(76, 20, 102);
+}
+
+#project5 {
+    background-color: rgb(50, 50, 50);
+}
+
+#project5 h1 {
+    color: gold;
+}
+
+#project6 {
+    background-color: rgb(100, 100, 100);
+}
+
+#project6 h1 {
+    color: gold;
+}
+
+#project7 {
+    background-color: rgb(150, 150, 150);
+}
+
+#project8 {
+    background-color: rgb(249, 249, 249);
+}
+
+}

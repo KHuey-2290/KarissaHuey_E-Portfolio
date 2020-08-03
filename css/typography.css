@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Sahitya:wght@400;700&display=swap');
+
+/* (Possible Google Fonts to use)
+
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sahitya', serif; 
+
+(End of Google Fonts) */
+
+
+/* Small Mobile Screens */
+
+    /* Navbar */
+    footer, header {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    footer {
+        font-weight: 650;
+    }
+    header {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    /* Home Page/Contact Page */
+    .home-text h1, .home-text h2 {
+        text-align: center;
+    }
+
+    .home-text h1, .contact-text h1 {
+        font-family: 'Sahitya', serif;
+        font-size: 50px;
+    }
+
+    .home-text h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    /* About Page/Contact Page */
+    .resume-box a {
+        text-decoration: none;
+        font-family: 'Sahitya', serif;
+        font-weight: 550;
+    }
+
+    .about-text p, .contact-text p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .resume-button {
+        font-family: 'Sahitya', serif;
+        font-size: 20px;
+    }
+
+    .about-text:first-letter {
+        font-size: 72px;
+        font-family: 'Playfair Display', serif;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        float: left;
+        line-height: 50px;
+    }
+
+    /* Projects Page */
+    .project-container h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .close {
+        color: rgb(240, 240, 240);
+    }
+
+    .close:hover, .close:focus {
+        color: #999;
+    }
+
+    .prev, .next {
+        color: rgb(240, 240, 240);
+
+    }
+
+    .numbertext {
+        color: #f2f2f2;
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        padding-bottom: 30px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    /* Contact Page */
+    .contact-text h1 {
+        text-align: center;
+    }
+
+    .contact-text a {
+        font-weight: 700;
+    }
+
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+
+    /* Navbar */
+    header {
+        font-size: 18px;
+    }
+
+    .home-text h1, .home-text h2 {
+        text-align: left;
+    }
+
+    /* Home Page */
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .home-text h2 {
+        font-size: 18px;
+    }
+
+    /* Projects Page */
+}
+
+/* Laptop Screens */
+@media(min-width: 678px) {
+
+    /* Navbar */
+    header {
+        font-size: 26px;
+    }
+
+    /* Home Page */
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .home-text h2 {
+        font-size: 22px;
+    }
+}
+
+
+/* Laptop Screens */
+@media(min-width: 725px) {
+    .contact-text h1 {
+        text-align: left;
+    }
+}
+
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    .project-container h1 {
+        font-size: 20px;
+    }
+}
